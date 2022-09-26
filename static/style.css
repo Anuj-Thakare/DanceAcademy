@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Dancing+Script&family=Edu+QLD+Beginner:wght@700&family=Edu+SA+Beginner:wght@500&family=Playfair+Display:ital@1&family=Shadows+Into+Light&family=Smooch&family=Titillium+Web:ital,wght@1,400;1,600&family=Trispace:wght@100&display=swap" rel="stylesheet');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Dancing+Script&family=Edu+QLD+Beginner:wght@700&family=Edu+SA+Beginner:wght@500&family=Kalam&family=Playfair+Display:ital@1&family=Shadows+Into+Light&family=Smooch&family=Titillium+Web:ital,wght@1,400;1,600&family=Trispace:wght@100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-image: url('https://getwallpapers.com/wallpaper/full/d/3/8/681324.jpg');
+    background-size: 100px 100px 100px 100px; */
+}
+#logo{
+    display: flex;
+    align-items: center;
+    margin: -7px 2px 2px 14px
+}
+#logo img{
+    height: 42px;
+    border-radius: 10px;
+}
+
+#navbar {
+    background-color: #626060;
+    padding: 18px 5px 5px 6px;
+    font-family: 'Edu SA Beginner', cursive;
+    font-weight: bold;
+    font-size: 21px;
+}
+
+#navbar ul {
+    display: flex;
+}
+
+#navbar li {
+    list-style: none;
+}
+
+#navbar li a {
+    text-decoration: none;
+    padding: 13px 30px;
+    color: white;
+}
+#navbar li a:hover{
+
+    padding: 13px 30px;
+    color: red;
+}
+
+#introSection {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(137 83 83);
+    color: white;
+    font-family: 'Kalam', cursive;
+    /* font-family: 'Edu QLD Beginner', cursive; */
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    font-weight: bold;
+    font-size: 43px;
+    background: url('https://getwallpapers.com/wallpaper/full/d/3/8/681324.jpg');
+    background-size: cover;
+    /* padding: 101px 5px 5px 349px; */
+
+}
+#introSection div.class{
+    padding: 58px 5px 5px 259px;
+    font-size: 55px;
+}
+#introSection div.classes{
+    padding: 2px 5px 5px 463px;
+    font-size: 32px;
+}
+#missionSection {
+    height: 280px;
+}
+#missionSection h2{
+    text-align: center;
+    padding-top: 14px;
+    font-family: 'Edu QLD Beginner', cursive;
+    font-size: 32px;
+}
+.card{
+    background-color: white;
+    border: 2px solid black;
+    display: inline-block;
+    border-radius: 10px;
+    width: 30%;
+    margin: 23px 21px;
+    height: 173px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.card h3{
+    text-align: center;
+    margin: 12px;
+    font-size: 25px;
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-img{
+   height: 100px;
+   padding: 0 14px;
+  
+}
+.card-img img{
+    height: inherit;
+ }
+.card-content p{
+    font-size: 19px;
+}
+
+#sponsorSection {
+    height: 253px;
+    background-color: #ffffd8;
+}
+#sponsors{
+    height: 120px;
+    max-width: 1000px;
+    margin: 27px auto;
+}
+.spImages{
+    height: 99%;
+    margin: 20px;
+    border-radius: 10px;
+}
+#sponsorSection h2{
+    text-align: center;
+    padding-top: 14px;
+    font-family: 'Edu QLD Beginner', cursive;
+    font-size: 32px;
+}
+
+#footer {
+    display: flex;
+    color: white;
+    height: 60px;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

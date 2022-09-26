@@ -1,0 +1,56 @@
+extends base.pug
+
+block scripts
+    script(src='/static/index.js')
+block style 
+    style
+      include ../static/style.css
+
+block content 
+    //- nav#navbar 
+    //-   ul
+    //-     div#logo
+    //-       img(src="/static/dance1.jpg", alt="")
+    //-     li #[a(href="/") Home]
+    //-     li #[a(href="/") About]
+    //-     li #[a(href="/") Services]
+    //-     li #[a(href="/") Class Info]
+    //-     li #[a(href="/contact") Contact Us]
+
+  section#introSection 
+    div.class  Welcome to the Dance Academy 
+    div.classes  Eat Sleep Dance Repeat 
+    
+  section#missionSection 
+     h2 Our Mission 
+     div.card
+      h3 Dance Perfection  
+      div.card-box
+        div.card-img
+          img(src="https://clipartcraft.com/images/dance-clipart-logo-7.png", alt="loading")
+        div.card-content
+          p This is the best dance academy in the universe 
+
+     div.card
+      h3 Dance the way you like  
+      div.card-box
+        div.card-img
+          img(src="https://pluspng.com/img-png/hip-hop-dance-png-black-and-white-keywords-hip-hop-dancing-silhouette-dancer-720.png", alt="loading")
+        div.card-content
+          p This is the best dance academy in the universe 
+
+     div.card
+      h3 Expert Teaching 
+      div.card-box
+        div.card-img
+          img(src="https://images.squarespace-cdn.com/content/5563ede4e4b08d56a3493807/1449008273520-KPU2O04GS8A0YPNNO2YX/ILUV2.DANCE-logo-black-dancer-only.png?format=1000w&content-type=image%2Fpng", alt="loading")
+        div.card-content
+          p This is the best dance academy in the universe 
+
+  section#sponsorSection 
+     h2 Our Sponcers
+     div#sponsors 
+      img(src="/static/apple.jpg", alt="loading", class="spImages")
+      img(src="/static/hp1.jpg", alt="loading", class="spImages")
+      img(src="/static/microsoft.jpg", alt="loading", class="spImages")
+      img(src="/static/skypee.jpg", alt="loading", class="spImages")

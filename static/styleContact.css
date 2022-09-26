@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Dancing+Script&family=Edu+QLD+Beginner:wght@700&family=Edu+SA+Beginner:wght@500&family=Playfair+Display:ital@1&family=Shadows+Into+Light&family=Smooch&family=Titillium+Web:ital,wght@1,400;1,600&family=Trispace:wght@100&display=swap" rel="stylesheet');
+h1{
+    font-family: 'Edu SA Beginner', cursive;
+    font-size: 41px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 12px 0;
+}
+.myForm{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.myInput{
+    width: 40%;
+    padding: 9px;
+    margin: 8px;
+    font-size: 16px;
+    border: 2px solid rgb(250, 164, 164);
+    border-radius: 10px;
+
+}
+.btn{
+    margin: 4px 383px 5px 3px;
+    padding: 10px 15px 10px 15px;
+    color: white;
+    background-color: grey;
+    font-weight: bold;
+    font-size: 13px;
+    border-radius: 10px;
+}
+.btn:hover{
+    background-color: rgb(137, 136, 136);
+}
+.container{
+    height: 445px;
+}
